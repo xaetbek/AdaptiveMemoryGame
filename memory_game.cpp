@@ -7,7 +7,6 @@
 
 using namespace std;
 
-
 int main(){
     // PRINT STARTING PROMPT
     cout << "---------------------------------------" << endl;
@@ -116,7 +115,7 @@ int main(){
         sleep(1);
         cout<<"Your current score: "<<score<<endl;
         sleep(1);
-        cout<<"Here come the next....."<<endl;
+        cout<<"Here comes the next....."<<endl;
         sleep(1);
         cout<<"Ready ...."<<endl;
         sleep(1);

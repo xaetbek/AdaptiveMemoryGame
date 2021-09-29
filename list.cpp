@@ -1,4 +1,4 @@
-"apple", "avocado", "apricot",
+list = {"apple", "avocado", "apricot",
 "banana", "blackberry", "blueberry", "boysenberry",
 "cherry", "cantaloupe", "cranberry", "coconut", "cucumber", "currant",
 "date", "durian", "dragonfruit",
@@ -18,3 +18,4 @@
 "strawberry", "star-fruit", "sapote", "soursop", "sugar-apple", "star-apple",
 "tangerine", "tomato", "tamarind",
 "watermelon",
+}
