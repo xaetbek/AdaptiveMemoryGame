@@ -4,9 +4,6 @@
 #include <algorithm>
 #include <cstdlib>
 #include <unistd.h>
-//#include "cls_sleep.h"
-#include <chrono>
-#include <thread>
 
 using namespace std;
 
