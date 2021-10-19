@@ -1,0 +1,7 @@
+I would love to enhance the game by adding some elements so that the user who is playing this game would be less stressful and more successful. 
+
+Firstly, 
+After the each round, I would add another prompt that asks the user if they are ready for the next round. So, in this case the user would have more time to look at their score, and don't follow the 1 second pace of the game. I found it too fast.
+
+Secondly, 
+It is the timing as I mentioned above. I would change the second to based on the levels. Because, the higher the level, more words are prompted to be memorized. So, the time should be given based on the levels.

@@ -34,13 +34,13 @@ int main(){
         cout << "Invalid option, Ready to begin (Y/N)? ";
         cin >> input;
     }
-
+    
     // CREATE ARRAY OF WORDS
     string list[] = {"apple", "avocado", "apricot", "banana", "blackberry", "blueberry", "boysenberry", 
                     "cherry", "cantaloupe", "cranberry", "coconut", "cucumber", "currant", "date", "durian",
                     "dragonfruit", "elderberry", "fig", "grapefruit", "guava", "grape", "honeydew", "honeyberry", 
-                    "jackfruit", "kiwi"};
-    int size = 25;
+                    "jackfruit", "kiwi", "kale"};
+    int size = 26;
 
     // INITIALIZE LEVEL TO 2
     int level = 2;
@@ -60,9 +60,9 @@ int main(){
         // PRINT OUT RANDOMLY SELECTED WORDS BASED ON THE LEVEL
         for (int i = 0; i < level; i++)
         {
-            int pos = rand() % size;
-            cout << list[pos] << " ";
-            expected_words[i] = list[pos];
+            int word = rand() % size;
+            cout << list[word] << " ";
+            expected_words[i] = list[word];
         }
 
         cout << endl
@@ -121,6 +121,7 @@ int main(){
         sleep(1);
     } while (true);
 
+    
     // PRINT THE FINAL SCORE
     cout<<endl<<"Thanks for playing.........."<<endl;
     cout<<"Your final score is.........."<<score<<endl;
